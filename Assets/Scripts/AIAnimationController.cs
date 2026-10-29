@@ -28,12 +28,12 @@ public class AIAnimationController : MonoBehaviour
         animator.SetFloat("CharacterSpeed", speed);
     }
 
-    /*void HitPlayer() // Attack Animation Event to check if the player his hit
+    void HitPlayer() // Attack Animation Event to check if the player his hit
     {
         GameObject objectHit;
         if (aiController.CheckHandsCollision(out objectHit, "Player"))
         {
             //SceneManager.LoadScene(0);
         }
-    }*/
+    }
 }

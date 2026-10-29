@@ -3240,6 +3240,7 @@ GameObject:
   - component: {fileID: 2114487921}
   - component: {fileID: 2114487925}
   - component: {fileID: 2114487922}
+  - component: {fileID: 2114487928}
   - component: {fileID: 2114487926}
   - component: {fileID: 2114487927}
   m_Layer: 6
@@ -3368,6 +3369,18 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2114487928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114487918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf10a0d143c46d4386c9a4cbc64f6fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AIAnimationController
 --- !u!1001 &6489749920732949425
 PrefabInstance:
   m_ObjectHideFlags: 0
